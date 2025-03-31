@@ -32,6 +32,11 @@ jobs:
       - name: Run conversion script
         run: python main.py
 
+      - name: Reset and clean working directory
+        run: |
+          git reset --hard HEAD
+          git clean -fd
+
       - name: Commit and push output files
         run: |
           git config user.name "github-actions[bot]"

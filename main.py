@@ -154,6 +154,10 @@ def merge_routing_json(output_file, input_prefixes):
 
 
 if __name__ == "__main__":
+    # 清理输出目录中的所有文件
+    for file in os.listdir(OUTPUT_DIR):
+        os.remove(os.path.join(OUTPUT_DIR, file))
+
     # 下载过滤器文件
     download_filter()
     # 将过滤器文件转换为 SRS 格式

@@ -42,7 +42,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin
           git rebase origin/main || git rebase --skip
-          git add rule-set/
+          git add -A rule-set/
           git commit -m "chore: update converted filter files" || echo "No changes to commit"
           git push origin HEAD:main
 

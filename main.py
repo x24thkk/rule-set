@@ -13,19 +13,32 @@ raw_file_path = os.path.join(OUTPUT_DIR, "filter.txt")
 srs_file_path = os.path.join(OUTPUT_DIR, "filter.srs")
 
 # 分流域名规则链接（以 Clash 或 Sing-box 格式为主）
-routing_urls = {
-    # 可添加实际的分流规则源
-    # "cn-sites": "https://example.com/routing.txt",
-    "github": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-github.srs",
-    "openai": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-openai.srs",
+routing_domain = {
+    "direct": {
+        # 举例直连域名
+        "apple-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple@cn.srs",
+        "apple-pki-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple-pki@cn.srs",
+        "apple-dev-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple-dev@cn.srs",
+        "geosite-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-cn.srs",
+        "geosite-cloudflare-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-cloudflare@cn.srs",
+    },
+    "proxy": {
+        "github": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-github.srs",
+        "openai": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-openai.srs",
+    },
 }
 
 # 路由分流IP规则链接（以 Clash 或 Sing-box 格式为主）
 routing_ip = {
-    "telegram": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/telegram.srs",
-    "netfilx": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/netflix.srs",
-    "google": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/google.srs",
-    "twitter": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/twitter.srs",
+    "direct": {
+        "geoip-cn": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+    },
+    "proxy": {
+        "telegram": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/telegram.srs",
+        "netflix": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/netflix.srs",
+        "google": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/google.srs",
+        "twitter": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/twitter.srs",
+    },
 }
 
 
@@ -142,7 +155,17 @@ def merge_routing_json(output_file, input_prefixes):
                                 merged_rules[key].add(value)
 
     # 转换为最终格式
-    merged = {key: sorted(list(values)) for key, values in merged_rules.items()}
+    merged = {}
+    for key, values in merged_rules.items():
+        original_count = len(values)
+        unique_values = sorted(list(values))
+        new_count = len(unique_values)
+        if original_count != new_count:
+            print(
+                f'Duplicate detected in key "{key}": {original_count} -> {new_count} after deduplication.'
+            )
+        merged[key] = unique_values
+
     final = {
         "version": merged_version if merged_version is not None else 1,
         "rules": [merged],
@@ -163,42 +186,76 @@ if __name__ == "__main__":
     # 将过滤器文件转换为 SRS 格式
     convert_with_sing_box()
 
-    # 清理旧的中间 JSON 文件
-    for file in os.listdir(OUTPUT_DIR):
-        if (
-            file.endswith(".json")
-            and not file.startswith("filter")
-            and file != "merged-routing.json"
-        ):
-            os.remove(os.path.join(OUTPUT_DIR, file))
-
     # 处理每个路由规则
-    for name, url in routing_urls.items():
+    for name, url in routing_domain["direct"].items():
         process_routing_rule(name, url)
 
-    for name, ips in routing_ip.items():
+    for name, url in routing_domain["proxy"].items():
+        process_routing_rule(name, url)
+
+    for name, ips in routing_ip["direct"].items():
         process_routing_rule(name, ips)
 
-    # 合并 routing_urls
-    merge_routing_json("merged-domain.json", list(routing_urls.keys()))
+    for name, ips in routing_ip["proxy"].items():
+        process_routing_rule(name, ips)
+
+    # 合并 direct 域名
+    merge_routing_json(
+        "merged-domain-direct.json", list(routing_domain["direct"].keys())
+    )
     compile_json_to_srs(
-        os.path.join(OUTPUT_DIR, "merged-domain.json"),
-        os.path.join(OUTPUT_DIR, "merged-domain.srs"),
+        os.path.join(OUTPUT_DIR, "merged-domain-direct.json"),
+        os.path.join(OUTPUT_DIR, "merged-domain-direct.srs"),
     )
 
-    # 合并 routing_ip
-    merge_routing_json("merged-ip.json", list(routing_ip.keys()))
+    # 合并 proxy 域名
+    merge_routing_json("merged-domain-proxy.json", list(routing_domain["proxy"].keys()))
     compile_json_to_srs(
-        os.path.join(OUTPUT_DIR, "merged-ip.json"),
-        os.path.join(OUTPUT_DIR, "merged-ip.srs"),
+        os.path.join(OUTPUT_DIR, "merged-domain-proxy.json"),
+        os.path.join(OUTPUT_DIR, "merged-domain-proxy.srs"),
     )
 
-    # 清理中间生成的 JSON 文件，仅保留合并后的文件
+    # 合并 direct IP
+    merge_routing_json("merged-ip-direct.json", list(routing_ip["direct"].keys()))
+    compile_json_to_srs(
+        os.path.join(OUTPUT_DIR, "merged-ip-direct.json"),
+        os.path.join(OUTPUT_DIR, "merged-ip-direct.srs"),
+    )
+
+    # 合并 proxy IP
+    merge_routing_json("merged-ip-proxy.json", list(routing_ip["proxy"].keys()))
+    compile_json_to_srs(
+        os.path.join(OUTPUT_DIR, "merged-ip-proxy.json"),
+        os.path.join(OUTPUT_DIR, "merged-ip-proxy.srs"),
+    )
+
+    # 导出 proxy IP 列表，方便用于静态路由
+    with open(
+        os.path.join(OUTPUT_DIR, "merged-ip-proxy.json"), "r", encoding="utf-8"
+    ) as f:
+        data = json.load(f)
+
+    ip_list = []
+    rules = data.get("rules", [])
+    for rule in rules:
+        if isinstance(rule, dict):
+            ip_list.extend(rule.get("ip_cidr", []))
+            ip_list.extend(rule.get("geoip", []))
+
+    proxy_ip_list_path = os.path.join(OUTPUT_DIR, "proxy-ip-list.txt")
+    with open(proxy_ip_list_path, "w", encoding="utf-8") as f:
+        for ip in sorted(set(ip_list)):
+            f.write(f"{ip}\n")
+
+    print(f"Proxy IP list exported to {proxy_ip_list_path}")
+
     for file in os.listdir(OUTPUT_DIR):
         if (
-            file.endswith(".json")
-            and not file.startswith("filter")
-            and file != "merged-domain.json"
-            and file != "merged-ip.json"
+            file != "filter.srs"
+            and file != "merged-domain-direct.srs"
+            and file != "merged-domain-proxy.srs"
+            and file != "merged-ip-direct.srs"
+            and file != "merged-ip-proxy.srs"
+            and file != "proxy-ip-list.txt"
         ):
             os.remove(os.path.join(OUTPUT_DIR, file))

@@ -12,10 +12,9 @@ url = "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
 raw_file_path = os.path.join(OUTPUT_DIR, "filter.txt")
 srs_file_path = os.path.join(OUTPUT_DIR, "filter.srs")
 
-# 分流域名规则链接（以 Clash 或 Sing-box 格式为主）
+# 分流域名规则链接
 routing_domain = {
     "direct": {
-        # 举例直连域名
         "apple-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple@cn.srs",
         "apple-pki-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple-pki@cn.srs",
         "apple-dev-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple-dev@cn.srs",
@@ -25,10 +24,12 @@ routing_domain = {
     "proxy": {
         "github": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-github.srs",
         "openai": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-openai.srs",
+        "category-ai-chat-!cn": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-chat-!cn.srs",
+        "geosite-geolocation-!cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
     },
 }
 
-# 路由分流IP规则链接（以 Clash 或 Sing-box 格式为主）
+# 路由分流IP规则链接
 routing_ip = {
     "direct": {
         "geoip-cn": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",

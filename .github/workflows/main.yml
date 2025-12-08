@@ -21,13 +21,15 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
-        run: pip install requests
+      - name: Upgrade pip & Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Install sing-box
         run: |
           curl -fsSL https://sing-box.app/deb-install.sh | bash
-          echo "$HOME/.sing-box" >> $GITHUB_PATH
+          export PATH="$HOME/.sing-box:$PATH"
 
       - name: Run conversion script
         run: python main.py
@@ -38,6 +40,9 @@ jobs:
           git add -A rule-set/
           git diff --cached --name-only > changed_files.txt
           echo "changed=$(cat changed_files.txt | wc -l)" >> $GITHUB_OUTPUT
+          if [ "$(cat changed_files.txt | wc -l)" -eq 0 ]; then
+            echo "No changed files to upload."
+          fi
 
       - name: Upload changed artifacts
         if: steps.changes.outputs.changed != '0'
@@ -58,4 +63,7 @@ jobs:
           git push origin HEAD:main
 
       - name: Reset and clean working directory
-        run: git reset --hard HEAD
+        run: |
+          set -e
+          git reset --hard HEAD
+          git clean -fdx

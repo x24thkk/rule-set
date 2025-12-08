@@ -2,8 +2,8 @@ name: Download and Convert
 
 on:
   schedule:
-    - cron: "0 2 * * *" # 每天凌晨 2 点（UTC 时间）执行一次
-  workflow_dispatch: # 允许手动触发
+    - cron: "0 2 * * *"
+  workflow_dispatch:
   push:
     paths:
       - "main.py"
@@ -32,22 +32,30 @@ jobs:
       - name: Run conversion script
         run: python main.py
 
-      - name: Reset and clean working directory
+      - name: Detect changed files
+        id: changes
         run: |
-          git reset --hard HEAD
+          git add -A rule-set/
+          git diff --cached --name-only > changed_files.txt
+          echo "changed=$(cat changed_files.txt | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Upload changed artifacts
+        if: steps.changes.outputs.changed != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: filter-output
+          path: |
+            $(cat changed_files.txt)
 
       - name: Commit and push output files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin
-          git rebase origin/main || git rebase --skip
+          git pull --rebase origin main || true
           git add -A rule-set/
           git commit -m "chore: update converted filter files" || echo "No changes to commit"
           git push origin HEAD:main
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: filter-output
-          path: rule-set/
+      - name: Reset and clean working directory
+        run: git reset --hard HEAD

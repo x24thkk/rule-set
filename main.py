@@ -250,13 +250,34 @@ if __name__ == "__main__":
 
     print(f"Proxy IP list exported to {proxy_ip_list_path}")
 
-    for file in os.listdir(OUTPUT_DIR):
-        if (
-            file != "filter.srs"
-            and file != "merged-domain-direct.srs"
-            and file != "merged-domain-proxy.srs"
-            and file != "merged-ip-direct.srs"
-            and file != "merged-ip-proxy.srs"
-            and file != "proxy-ip-list.txt"
-        ):
-            os.remove(os.path.join(OUTPUT_DIR, file))
+
+    # 导出 proxy 域名列表（纯 TXT）
+    with open(os.path.join(OUTPUT_DIR, "merged-domain-proxy.json"), "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    domain_list = []
+    rules = data.get("rules", [])
+    for rule in rules:
+        if isinstance(rule, dict):
+            for key, values in rule.items():
+                if isinstance(values, list):
+                    domain_list.extend(values)
+
+    proxy_domain_list_path = os.path.join(OUTPUT_DIR, "proxy-domain-list.txt")
+    with open(proxy_domain_list_path, "w", encoding="utf-8") as f:
+        for d in sorted(set(domain_list)):
+            f.write(f"{d}\n")
+
+    print(f"Proxy domain list exported to {proxy_domain_list_path}")
+
+
+    # for file in os.listdir(OUTPUT_DIR):
+    #     if (
+    #         file != "filter.srs"
+    #         and file != "merged-domain-direct.srs"
+    #         and file != "merged-domain-proxy.srs"
+    #         and file != "merged-ip-direct.srs"
+    #         and file != "merged-ip-proxy.srs"
+    #         and file != "proxy-ip-list.txt"
+    #     ):
+    #         os.remove(os.path.join(OUTPUT_DIR, file))

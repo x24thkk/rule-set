@@ -271,13 +271,14 @@ if __name__ == "__main__":
     print(f"Proxy domain list exported to {proxy_domain_list_path}")
 
 
-    # for file in os.listdir(OUTPUT_DIR):
-    #     if (
-    #         file != "filter.srs"
-    #         and file != "merged-domain-direct.srs"
-    #         and file != "merged-domain-proxy.srs"
-    #         and file != "merged-ip-direct.srs"
-    #         and file != "merged-ip-proxy.srs"
-    #         and file != "proxy-ip-list.txt"
-    #     ):
-    #         os.remove(os.path.join(OUTPUT_DIR, file))
+    for file in os.listdir(OUTPUT_DIR):
+        if (
+            file != "filter.srs"
+            and file != "merged-domain-direct.srs"
+            and file != "merged-domain-proxy.srs"
+            and file != "merged-ip-direct.srs"
+            and file != "merged-ip-proxy.srs"
+            and file != "proxy-ip-list.txt"
+            and file != "proxy-domain-list.txt"
+        ):
+            os.remove(os.path.join(OUTPUT_DIR, file))

@@ -4186,6 +4186,8 @@ bronto.com
 brotli.org
 brourou.com
 browser-intake-datadoghq.com
+browser.events.data.msn.cn
+browser.events.data.msn.com
 browser.kagi.com
 browserleaks.com
 brutalbdsmtube.com
@@ -11691,6 +11693,7 @@ kinopoisk.ru
 kir2kos.net
 kirbysepicyarn.com
 kirbysuperstarultra.com
+kiro.dev
 kismia.com
 kisscos.net
 kissjav.com

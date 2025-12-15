@@ -1,0 +1,28 @@
+{
+  "routing_domain": {
+    "direct": {
+      "apple-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple@cn.srs",
+      "apple-pki-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple-pki@cn.srs",
+      "apple-dev-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-apple-dev@cn.srs",
+      "geosite-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-cn.srs",
+      "geosite-cloudflare-cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-cloudflare@cn.srs"
+    },
+    "proxy": {
+      "github": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-github.srs",
+      "openai": "https://raw.githubusercontent.com/SagerNet/sing-geosite/refs/heads/rule-set/geosite-openai.srs",
+      "category-ai-chat-!cn": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-chat-!cn.srs",
+      "geosite-geolocation-!cn": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs"
+    }
+  },
+  "routing_ip": {
+    "direct": {
+      "geoip-cn": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+    },
+    "proxy": {
+      "telegram": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/telegram.srs",
+      "netflix": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/netflix.srs",
+      "google": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/google.srs",
+      "twitter": "https://github.com/Loyalsoldier/geoip/raw/refs/heads/release/srs/twitter.srs"
+    }
+  }
+}

@@ -4334,6 +4334,8 @@ bymj.io
 bypasscensorship.org
 byspotify.com
 bytedapm.com
+bytegecko-i18n.com
+byteintlapi.com
 byteoversea.com
 bytick.com
 c-ij.com
@@ -4504,6 +4506,7 @@ canonical.com
 canonproprinters.com
 canva.com
 canvastatus.com
+capcut.com
 capitalgames.com
 capitaliq.com
 capturingreality.com
@@ -10168,6 +10171,8 @@ ibook.net
 ibookpartner.com
 ibooksauthor.com
 ibradome.com
+ibytedtos.com
+ibyteimg.com
 ic.ac.uk
 icashpassport.com.mx
 icegay.tv
@@ -11022,6 +11027,7 @@ ippstatic.com
 iproperty.com
 iproperty.com.my
 iproperty.com.sg
+ipstatp.com
 iqiyiavlive.buzz
 iqq2.cc
 iqq3.cc
@@ -11045,6 +11051,7 @@ isheppc.com
 isiknowledge.com
 iskoot.com
 islamiccenterofnewlondon.com
+isnssdk.com
 iss138.com
 issitedownrightnow.com
 issquaredown.com
@@ -11895,6 +11902,8 @@ lewdweb.net
 lexisnexis.com
 lexuemei.com
 lezpoo.com
+lf16-effectcdn.byteeffecttos-g.com
+lf16-pkgcdn.pitaya-clientai.com
 lfai.foundation
 lg.com
 lgappstv.com
@@ -17339,6 +17348,7 @@ sfx.ms
 sg120.me
 sg1lib.org
 sgp1.fun
+sgpstatp.com
 sgspe.de
 sgspt.buzz
 sh-xuxingda.com
@@ -17696,6 +17706,7 @@ snkplaymore.info
 snow.me
 snowcorp.com
 snowmiku.com
+snssdk.com
 so-net.ne.jp
 so-net.net.tw
 soasta-dswb.com
@@ -18842,6 +18853,7 @@ tiendabestbuy.com
 tiffany-towers.com
 tig-ol-bitties.live
 tik-tokapi.com
+tiktok
 tiktok-minis.com
 tiktok-row.net
 tiktok.com
@@ -18853,6 +18865,7 @@ tiktokd.org
 tiktokeu-cdn.com
 tiktokglobalshopv.com
 tiktokminis.us
+tiktokmusic.app
 tiktokrow-cdn.com
 tiktokv.com
 tiktokv.eu
@@ -19034,6 +19047,7 @@ tracker.network
 tracking-location.com
 tradevip1.com
 tradingview.com
+trae-api-sg.mchost.guru
 trae.ai
 trafficmanager.net
 tranny.one
@@ -19154,6 +19168,7 @@ tteshop.com
 ttlivecdn.com
 ttoverseaus.net
 ttvnw.net
+ttwebview.com
 ttwstatic.com
 tube-pornomovs.com
 tube-sex-videos.com

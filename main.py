@@ -19,6 +19,8 @@ srs_file_path = os.path.join(OUTPUT_DIR, "filter.srs")
 routing_domain = config.get("routing_domain", {})
 routing_ip = config.get("routing_ip", {})
 
+private_url = config.get("private_url",  "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/private.srs")
+private_srs_file_path = os.path.join(OUTPUT_DIR, "private.srs")
 
 # 下载过滤器文件并保存到指定路径
 def download_filter():
@@ -27,6 +29,13 @@ def download_filter():
     with open(raw_file_path, "w", encoding="utf-8") as f:
         f.write(response.text)
     print("Filter downloaded successfully.")
+
+def download_private():
+    response = requests.get(private_url)
+    response.raise_for_status()
+    with open(private_srs_file_path, "w", encoding="utf-8") as f:
+        f.write(response.text)
+    print("private downloaded successfully.")
 
 
 # 使用 sing-box 将过滤器文件转换为 SRS 格式
@@ -182,18 +191,16 @@ def process_category(rules_dict, category_name, output_prefix):
 
 
 def count_rules_in_json(file_path):
-    """统计 JSON 文件中的规则条目数量（所有列表值的总数）"""
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     total = 0
-    # 数据结构可能是列表或包含 "rules" 的字典
     rules = data if isinstance(data, list) else data.get("rules", [])
     for rule in rules:
         if isinstance(rule, dict):
             for key, value in rule.items():
                 if isinstance(value, list):
                     total += len(value)
-                elif value:  # 非空标量值也算一条
+                elif value: 
                     total += 1
     return total
 
@@ -234,6 +241,7 @@ if __name__ == "__main__":
         os.remove(os.path.join(OUTPUT_DIR, file))
 
     download_filter()
+    download_private()
     convert_with_sing_box()
 
     domain_direct_json, domain_direct_srs = process_category(
@@ -266,6 +274,7 @@ if __name__ == "__main__":
         "merged-ip-proxy.json",
         "proxy-ip-list.txt",
         "proxy-domain-list.txt",
+        "private.srs"
     }
     for file in os.listdir(OUTPUT_DIR):
         if file not in keep_files:

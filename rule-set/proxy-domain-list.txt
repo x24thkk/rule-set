@@ -767,10 +767,9 @@
 ^[0-9]+vod-adaptive\.akamaized\.net$
 ^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
 ^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
-^chatgpt-async-webps-prod-\s+-\d+\.webpubsub\.azure\.com$
 ^epicgames-download\d\.akamaized\.net$
 ^ewcdn[0-9]+\.nowe\.com$
-^github-production-release-asset-[0-9a-za-z]{6}\.s3\.amazonaws\.com$
+^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$
 ^hses[1-7]?\.akamaized\.net$
 a-bank.jp
 a-hentai.tv
@@ -2205,6 +2204,7 @@ asian-anal-sex.com
 asianboygay.com
 asiancamgirllive.com
 asiancamly.com
+asiancoochies.com
 asianfreeporn.net
 asiangfvideos.com
 asiangirlsnextdoor.com
@@ -3240,12 +3240,15 @@ bigbeans.solutions
 bigbigchannel.com.hk
 bigbigshop.com
 bigblackdicklover.com
+bigboobalexya.com
 bigboobbundle.com
+bigboobdaria.com
 bigboobsalert.com
 bigboobsandhotsex.com
 bigboobsonline.org
 bigboobspov.com
 bigboobswives.com
+bigboobvanessay.com
 bigboss.video
 bigbuckbunny.org
 bigcharts.com
@@ -3260,6 +3263,7 @@ bigsex.tv
 bigtitangelawhite.com
 bigtithitomi.com
 bigtithooker.com
+bigtitkatiethornton.com
 bigtitsextapes.com
 bigtitsgallery.net
 bigtitsmodelsdirectory.com
@@ -4266,6 +4270,7 @@ bustydustystash.com
 bustyinescudna.com
 bustykellykay.com
 bustykerrymarie.com
+bustylezzies.com
 bustylornamorgan.com
 bustymerilyn.com
 bustymomsvideo.com
@@ -4784,6 +4789,7 @@ chianxv.buzz
 chibabank.co.jp
 chibakogyo-bank.co.jp
 chicagolandbmw.com
+chicksonblackdicks.com
 chickstagram.com
 chickteases.com
 chid.com.mm
@@ -6737,6 +6743,7 @@ ebc.net.tw
 ebenporno.com
 ebi.ac.uk
 ebonyinlove.com
+ebonythots.com
 ebonywebcamhub.com
 eboobstore.com
 ebookforipad.com
@@ -8305,7 +8312,6 @@ fulltaboo.tv
 fullxxxmovies.net
 fundaiphone5s.com
 fundfire.com
-fundingchoicesmessages.google.com
 fundinginstitutional.com
 fundingrates.xyz
 fundpaypal.com
@@ -9221,6 +9227,7 @@ hairy-amateurs.com
 hairy-beauty.com
 hairy-women-pussy.net
 hairyclassic.com
+hairycoochies.com
 hairydivas.com
 hairynature.com
 hairyolder.com
@@ -9729,6 +9736,7 @@ horizontal-llc.com
 horizontal-systems.com
 horizontalglue.com
 horizontalsystems.com
+hornyasianmilfs.com
 hornybitches.org
 hornybutt.com
 hornychat.net
@@ -11346,6 +11354,7 @@ jerkmate.com
 jerkmate.tv
 jerkmatelive.org
 jerkofftocelebs.com
+jessicaturner.co.uk
 jessicaturner.com
 jetbrains.ai
 jetbrains.com
@@ -11863,6 +11872,8 @@ latamvmwareforum.com
 latencytop.com
 latex-project.org
 latinaabuse.com
+latinacoochies.com
+latinmommas.com
 latintubeporn.com
 latticedata.com
 launchpad.net
@@ -16744,6 +16755,7 @@ routerboard.com
 routledgehandbooks.com
 rowblocks.com
 rowblox.com
+roxired.com
 royalcams.com
 royalsocietypublishing.org
 rp-static-apne1.s3.ap-northeast-1.amazonaws.com

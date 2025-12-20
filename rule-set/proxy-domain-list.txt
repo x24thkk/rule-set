@@ -2579,6 +2579,7 @@ awflapp.top
 awjq.cc
 aws-iot-hackathon.com
 aws.com
+aws.dev
 awsapprunner.com
 awsapps.com
 awsautopilot.com
@@ -14434,8 +14435,14 @@ ntc.party
 ntd.com
 ntd.tv
 ntdca.com
+ntdfreemobile-tgc.cdn.hinet.net
+ntdfreepc-tgc.cdn.hinet.net
+ntdfreetv-tgc.cdn.hinet.net
+ntdfreevcpc-tgc.cdn.hinet.net
 ntdimg.com
+ntdofifreemobile-tgc.cdn.hinet.net
 ntdofifreepc-tgc.cdn.hinet.net
+ntdofifreetv-tgc.cdn.hinet.net
 ntdofifreevcpc-tgc.cdn.hinet.net
 ntdtv-dc.com
 ntdtv.ca
@@ -14851,6 +14858,8 @@ ooni.org
 ootbstudio.co.kr
 op.gg
 op7979.com
+opal.google
+opal.google.com
 openai.com
 openai.com.cdn.cloudflare.net
 openaiapi-site.azureedge.net

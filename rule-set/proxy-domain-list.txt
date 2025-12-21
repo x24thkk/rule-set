@@ -2144,10 +2144,14 @@ arcgis.com
 arcgisonline.com
 architectural-cadcam.com
 archive-it.org
+archive.fo
+archive.is
+archive.li
 archive.md
 archive.org
 archive.ph
 archive.today
+archive.vn
 archiveofourown.com
 archiveofourown.net
 archiveofourown.org
@@ -5582,6 +5586,7 @@ deepfreeze.tech
 deepl.com
 deepmind.com
 deepmind.google
+deezer.com
 default.exp-tas.com
 definebabe.com
 definefetish.com
@@ -6143,6 +6148,8 @@ dm-event.net
 dmcdn.net
 dmed.technology
 dmgmediaprivacy.co.uk
+dmit.io
+dmit.sh
 dml-lang.org
 dmm-extension.com
 dmm.co.jp
@@ -6508,6 +6515,7 @@ dynamobuilds.com
 dynamopackages.com
 dynamoreach.com
 dyncdn.me
+dzcdn.net
 dzen.ru
 dzeninfra.ru
 e-bay.com
@@ -6939,6 +6947,7 @@ entrust.cn
 entrust.com
 entrust.net
 entrustdatacard.com
+eotarchive.org
 epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
 epicbrowser.com
 epicgames.com
@@ -8642,6 +8651,7 @@ gh.io
 ghbi.ir
 ghcr.io
 ghettotube.com
+ghostarchive.org
 ghostgames.com
 giantessbooru.com
 giffgaff.com
@@ -12746,6 +12756,7 @@ mega.io
 mega.nz
 megacamz.com
 megafilmporno.com
+megalodon.jp
 megamon.co.kr
 megaphone.fm
 megapornfreehd.com
@@ -12762,6 +12773,7 @@ melonbooks.co.jp
 melonstube.com
 meme111.com
 memealerts.com
+mementoweb.org
 men.com
 men18.net
 menatplay.com
@@ -15363,6 +15375,7 @@ perfecttitspics.com
 periscope.tv
 perl.apache.org
 perl.org
+perma.cc
 perplexity.ai
 perplexity.com
 persagg.com
@@ -20508,6 +20521,7 @@ webcammedellin.co
 webcams.tv
 webcamtubexxx.com
 webchannel-alkalimakersuite-pa.clients6.google.com
+webcitation.org
 webex.ca
 webex.co.in
 webex.co.it

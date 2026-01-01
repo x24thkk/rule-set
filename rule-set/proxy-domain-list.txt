@@ -1018,6 +1018,7 @@ adskengpr.net
 adtcc.com
 adtidy.net
 adtidy.org
+adtrafficquality.google
 adult-doujin-free-information-bureau.officialblog.jp
 adult-h.com
 adult-home-videos.com
@@ -1651,6 +1652,7 @@ analsaga.com
 analscreen.com
 analtime.org
 analvids.com
+analytics-alv.google.com
 analytics.google.com
 analytics.vpc.duolingo.com
 analytictech.com
@@ -2662,6 +2664,7 @@ azureserviceprofiler.com
 azuresmartspaces.net
 azurestackvalidation.com
 azurewebsites.net
+b-cdn.net
 b-eroland.net
 b-ok.africa
 b-ok.asia
@@ -4244,6 +4247,8 @@ bumptop.net
 bumptop.org
 bumptunes.com
 bunka.go.jp
+bunny.net
+bunnycdn.com
 bunnylust.com
 burningcamel.com
 burstly.net
@@ -7661,6 +7666,7 @@ fcaebook.com
 fcebook.com
 fcebookk.com
 fcfacebook.com
+fcmatch.google.com
 fcs-keys-pub-prod.cdn-apple.com
 fcw.xxx
 fcww0.com

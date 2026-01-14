@@ -1786,6 +1786,10 @@ antenna.co.kr
 anthemgame.com
 anthemthegame.com
 anthropic.com
+antigravity-pa.googleapis.com
+antigravity-unleash.goog
+antigravity.google
+antigravity.googleapis.com
 anudetube.com
 anxiangxing.com
 anybunny.org
@@ -5059,11 +5063,13 @@ clipsex.asia
 clitgames.com
 clock.isc.org
 clojure.org
+cloudaicompanion.googleapis.com
 cloudapp.net
 cloudappsecurity.com
 cloudburstresearch.com
 cloudc.one
 cloudchoose.com
+cloudcode-pa.googleapis.com
 cloudcone.com
 cloudcone.net
 cloudconvert.com
@@ -5577,6 +5583,7 @@ daftsex-hd.com
 daftsex.com
 dagfs.com
 daiichibank.co.jp
+daily-cloudcode-pa.googleapis.com
 dailybasis.com
 dailym.ai
 dailymail.co.uk
@@ -6026,6 +6033,7 @@ digitalplaygroundnetwork.com
 digitalprototyping.com
 digitaltrends.com
 dilcdn.com
+dinopoloclub.com
 dinotube.com
 dirctv.com
 direcpath.com
@@ -13498,6 +13506,7 @@ mobileporngames.com
 mobilepornmovies.com
 mobileview.page
 mobilevrxxx.com
+mobimon.com.tw
 mobmyanmar.com
 mochajs.org
 mocloudplus.com
@@ -14585,8 +14594,10 @@ norsk.mobi
 norton.com
 notary-submissions-prod.s3-accelerate.amazonaws.com
 notary-submissions-prod.s3.us-west-2.amazonaws.com
+notebooklm-pa.googleapis.com
 notebooklm.google
 notebooklm.google.com
+notebooklm.googleapis.com
 notepad-plus-plus.org
 notify.ppy.sh
 notion-static.com
@@ -14611,6 +14622,7 @@ nowe.com
 nowe.hk
 nowjav.com
 nownews.com
+noxygames.com
 nozomi.la
 npm.community
 npmjs.com
@@ -16631,6 +16643,8 @@ raspbian.org
 rat.xxx
 ratedgross.com
 ravm.tv
+rayark.download
+rayark.net
 razer.com
 razerofficial.com
 razersupport.com

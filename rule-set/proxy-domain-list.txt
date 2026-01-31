@@ -1030,8 +1030,6 @@ adpornu.xyz
 ads-api.duolingo.com
 ads-pixiv.net
 ads-twitter.com
-ads.pubmatic.com
-ads.unitychina.cn
 ads.yahoo.com
 ads.youtube.com
 adsense.com
@@ -10095,6 +10093,7 @@ i69.com.tw
 i91dz.com
 iaablog.com
 iad.apple.com
+iads.unity3d.com
 iadsdk.apple.com
 iafd.com
 iam.soy
@@ -17783,8 +17782,6 @@ spiedigitallibrary.org
 spiritclubs.com
 spiritofecstasy.com
 spizoo.com
-splash-ads.cdn.unity.cn
-splash-ads.unitychina.cn
 splatoon2tournament.com
 splunk.com
 spo-msedge.net
@@ -19179,9 +19176,7 @@ unisat.io
 uniswap.org
 unity.com
 unity3d.com
-unityads.unity.cn
 unityads.unity3d.com
-unityads.unitychina.cn
 universalorlando.com
 universalpictures.com
 universalpicturesinternational.com

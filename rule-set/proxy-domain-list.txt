@@ -5097,6 +5097,8 @@ codeforces.com
 codei.sh
 codeish.co
 codeish.io
+codeium.com
+codeiumdata.com
 coderabbit.ai
 coderabbit.gallery.vsassets.io
 codespot.com
@@ -20409,6 +20411,8 @@ windowsphone.com
 windowssearch.com
 windowsuem.com
 windowsupdate.com
+windsurf.build
+windsurf.com
 windy.com
 winhec.com
 winhec.net
@@ -21217,6 +21221,7 @@ yamoon.club
 yande.re
 yandex-bank.net
 yandex-images.clstorage.net
+yandex-pogoda.static-storage.net
 yandex-team.ru
 yandex.aero
 yandex.az

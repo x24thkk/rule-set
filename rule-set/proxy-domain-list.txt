@@ -747,7 +747,6 @@
 9xlove.xyz
 9zipai.net
 ^[0-9]+vod-adaptive\.akamaized\.net$
-^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
 ^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 ^epicgames-download\d\.akamaized\.net$
 ^ewcdn[0-9]+\.nowe\.com$
@@ -884,6 +883,7 @@ addthiscdn.com
 addthisedge.com
 addtoany.com
 adelaidenow.com.au
+adeventtracker.spotify.com
 adfox.ru
 adgoogle.net
 adguard-dns.com
@@ -1046,6 +1046,7 @@ adskeng.net
 adskengineering.net
 adskengpp.net
 adskengpr.net
+adstudio-assets.scdn.co
 adtcc.com
 adtidy.net
 adtidy.org
@@ -1679,7 +1680,9 @@ analscreen.com
 analtime.org
 analvids.com
 analytics-alv.google.com
+analytics.facebook.com
 analytics.google.com
+analytics.tiktok.com
 analytics.vpc.duolingo.com
 analytictech.com
 anandtech.com
@@ -3524,6 +3527,7 @@ blogspot.tw
 blogspot.ug
 blogspot.vn
 blogterest.net
+bloodhound.spotify.com
 bloomberg.cn
 bloomberg.co.jp
 bloomberg.co.kr
@@ -4206,7 +4210,6 @@ bronto.com
 brotli.org
 brourou.com
 browser-intake-datadoghq.com
-browser.events.data.msn.cn
 browser.events.data.msn.com
 browser.kagi.com
 browser.run
@@ -7258,6 +7261,7 @@ facebook30.com
 facebook30.net
 facebook30.org
 facebook4business.com
+facebookads.com
 facebookadvertisingsecrets.com
 facebookappcenter.info
 facebookappcenter.net
@@ -12057,6 +12061,7 @@ localizejs.com
 localizestatus.com
 localpresshk.com
 localxlist.org
+log-upload-os.hoyoverse.com
 logi.com
 logicool.co.jp
 logicoolg.com
@@ -15435,6 +15440,7 @@ piwheels.org
 pixanalytics.com
 pixapp.net
 pixate.com
+pixel.facebook.com
 pixfs.net
 pixhost.to
 pixinsight.com.tw

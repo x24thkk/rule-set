@@ -1791,6 +1791,7 @@ apkcombo.com
 apkmirror.com
 apkpure.com
 apkpure.net
+apkpures.xyz
 aple.com
 aplestore.com
 aplleipods.com
@@ -2320,6 +2321,7 @@ attcenter.com
 attcollaborate.com
 attdns.com
 attdns.net
+attestation.app
 attexperts.com
 attglobal.net
 attic.io
@@ -9060,6 +9062,19 @@ graph.instagram.com
 graph.org
 graph.whatsapp.com
 graph.whatsapp.net
+grapheneos.app
+grapheneos.ca
+grapheneos.com
+grapheneos.dev
+grapheneos.foundation
+grapheneos.info
+grapheneos.net
+grapheneos.network
+grapheneos.online
+grapheneos.org
+grapheneos.ovh
+grapheneos.page
+grapheneos.social
 graphengine.io
 gravatar.com
 gravitytank.com
@@ -16964,6 +16979,7 @@ sdcountybmw.com
 sdnice.one
 sdnitube.buzz
 seagroup.com
+seamlessupdate.app
 seamonkey-project.org
 seancody.com
 seaofsolitude.com
@@ -18777,6 +18793,7 @@ tomatespodres.com
 tomibank.co.jp
 tomonews.net
 tomsguide.com
+ton.org
 tonec.com
 tonicmovies.com
 toolforge.org
@@ -19148,6 +19165,7 @@ uber.com
 ubereats.com
 ubi.com
 ubisoft.com
+ubisoft.siteintercept.qualtrics.com
 ubisoftconnect.com
 ubncloud.com
 ubnw.net
@@ -19313,6 +19331,7 @@ vagrantup.com
 valoryirene.com
 valuegb.com
 valvesoftware.com
+vanadium.app
 vancouverbmwretailers.ca
 vanish.at
 vanish.be

@@ -1915,6 +1915,7 @@ aporntv.com
 apornvideo.com
 app-analytics-services-att.com
 app-dynamics.com
+app-pay.jp
 app-store.wang
 app0le.com
 app756.com
@@ -16986,6 +16987,7 @@ samsungdm.com
 samsunggalaxyfriends.com
 samsunghealth.com
 samsungiotcloud.com
+samsungiots.com
 samsungknox.com
 samsungosp.com
 samsungqbe.com
@@ -17744,6 +17746,7 @@ smartonerobotics.com
 smartonesolutions.com.hk
 smartonesolutions.hk
 smartstream.ne.jp
+smartthings.com
 smashed.xxx
 smbc.co.jp
 smbctb.co.jp

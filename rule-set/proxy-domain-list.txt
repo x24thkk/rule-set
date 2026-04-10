@@ -1067,6 +1067,7 @@ ads.yahoo.com
 ads.yandex
 ads.yandex.com
 ads.yandex.ru
+ads.yango.com
 ads.youtube.com
 adsdk.yandex.ru
 adsense.com
@@ -1915,7 +1916,6 @@ api-adservices.apple.com
 api-extractor.com
 api-p.videomarket.jp
 api.ai
-api.appmetrica.yandex.ru
 api.news
 apibay.org
 apigee.com
@@ -2271,6 +2271,10 @@ applle.com
 applw.com
 appmedia.jp
 appmediagroup.com
+appmetrica.yandex.com
+appmetrica.yandex.net
+appmetrica.yandex.ru
+appmetrica.yango.com
 approvedusedbmw.com
 appsflayer.com
 appsonebay.net
@@ -4538,6 +4542,7 @@ c-spanvideo.org
 c0930.com
 c4rex.co
 c4slive.com
+cabconnect.org
 cableav.tv
 cableav.xyz
 cabletv.com.hk
@@ -4627,6 +4632,7 @@ canada-beatsbydre.com
 candidforum-videos.com
 candycumcity.com
 candypleasure.com
+canny.io
 canon-cee.com
 canon-cmos-sensors.com
 canon-cna.com
@@ -5129,8 +5135,10 @@ claudemcpclient.com
 claudeusercontent.com
 clawhub.ai
 clck.ru
+clck.yandex.com
 clck.yandex.net
 clck.yandex.ru
+clck.yango.com
 clco.cc
 clearasil.us
 clearlinux.org
@@ -6503,6 +6511,7 @@ dremonsterbeatsoutlets.com
 dreprobeats.com
 dreprofy.com
 dribbble.com
+driveawaytaxi.org
 driverxxx.com
 drivevideo.xyz
 driving.co.uk
@@ -7110,6 +7119,9 @@ entrust.cn
 entrust.com
 entrust.net
 entrustdatacard.com
+envato-static.com
+envato.com
+envatousercontent.com
 eotarchive.org
 epicbrowser.com
 epicgames.com
@@ -8981,6 +8993,7 @@ gofuckmenow.com
 gofundme.com
 gog-statics.com
 gog.com
+gogettaxi.org
 gogle.com
 gogo-load.com
 gogoanime.vc
@@ -9285,6 +9298,7 @@ gotgayporn.com
 gothdporn.com
 gotporn.com
 gotraffic.net
+goup.ai
 gouri.xyz
 governmentengineer.com
 govforce.com
@@ -9506,6 +9520,7 @@ hayabusa.io
 hayabusa.media
 hayday.com
 haydaygame.com
+hayya.ae
 hbabit.com
 hbfile.net
 hbo-europe.com
@@ -11632,6 +11647,21 @@ jiuse6666.com
 jiuse821.com
 jiuse822.com
 jiuse823.com
+jivo.chat
+jivo.ru
+jivochat.co.in
+jivochat.co.za
+jivochat.com
+jivochat.com.br
+jivochat.com.co
+jivochat.com.pe
+jivochat.com.tr
+jivochat.de
+jivochat.es
+jivochat.ng
+jivochat.ru
+jivosite.com
+jivosite.ru
 jiyou520.com
 jiyu-kobo.co.jp
 jizzboom.com
@@ -12903,7 +12933,9 @@ maying.co
 mbeats-tech.com
 mbheadphone.com
 mc.yandex.com
+mc.yandex.net
 mc.yandex.ru
+mc.yango.com
 mcafee.com
 mcb.com.mm
 mcd-holdings.co.jp
@@ -13922,6 +13954,7 @@ mxshm.site
 my-enema.com
 my-formosa.com
 my-magazine.me
+my-manager-account.com
 my13la.com
 my1stflame.com
 my20dc.com
@@ -14753,6 +14786,7 @@ ntp.ring.gr.jp
 ntp.ripe.net
 ntp.se
 ntp.t.ring.gr.jp
+ntp.time.nl
 ntp.tohoku.ac.jp
 ntp.tut.ac.jp
 ntp.ufe.cz
@@ -14762,6 +14796,7 @@ ntp1.jst.mfeed.ad.jp
 ntp1.ntp-servers.net
 ntp1.plala.or.jp
 ntp1.ring.gr.jp
+ntp1.time.nl
 ntp1.tohoku.ac.jp
 ntp1.v6.mfeed.ad.jp
 ntp1.wakwak.com
@@ -14769,6 +14804,7 @@ ntp2.jst.mfeed.ad.jp
 ntp2.ntp-servers.net
 ntp2.plala.or.jp
 ntp2.ring.gr.jp
+ntp2.time.nl
 ntp2.tohoku.ac.jp
 ntp2.v6.mfeed.ad.jp
 ntp2.wakwak.com
@@ -14779,6 +14815,8 @@ ntp4.ntp-servers.net
 ntp5.ntp-servers.net
 ntp6.ntp-servers.net
 ntp7.ntp-servers.net
+ntppool1.time.nl
+ntppool2.time.nl
 ntten-mg.buzz
 nu-bay.com
 nu36.vip
@@ -16914,9 +16952,7 @@ rentaride.de
 renzhe.cloud
 repe21.com
 repo.new
-report-partners.appmetrica.yandex.net
 report.ap.yandex-net.ru
-report.appmetrica.yandex.net
 repotama.com
 repsils.no
 repsneakermall.com
@@ -18631,6 +18667,7 @@ superstation.com.tw
 superuser.com
 supjav.com
 supplybestjerseys.com
+support-uber.com
 supportfacebook.com
 supremacy.com
 supremacy.net
@@ -18802,7 +18839,10 @@ tati-log.com
 tawny-peaks.com
 taxel.media
 taxi69.com
+taxiaid.org
 taxidrivermovie.com
+taxiguru.org
+taxitax.org
 taylorandfrancis.com
 taylorfrancis.com
 tbank-online.com
@@ -19039,6 +19079,7 @@ thelittleslush.com
 theman.in
 themarvelexperiencetour.com
 themathsfactor.com
+themeforest.net
 themercury.com.au
 themessengeradelaide.com.au
 themilfmovies.com
@@ -19788,6 +19829,7 @@ uusextoy.com
 uux68.com
 uverse.com
 uwpcommunitytoolkit.com
+uxthemes.com
 v-av.com
 v-has.com
 v.gd
@@ -21813,10 +21855,25 @@ yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
+yandexgo.com
 yandexlyceum.ru
 yandexmetrica.com
 yandexwebcache.net
 yandexwebcache.org
+yango-ads.com
+yango-b2b.com
+yango-team.com
+yango-tech.com
+yango.africa
+yango.ao
+yango.bh
+yango.co.il
+yango.com
+yango.fi
+yango.qa
+yango.taxi
+yango.tech
+yangofellowship.com
 yangzhi.app
 yantaqu.com
 yaohubaba.com

@@ -18,6 +18,7 @@ srs_file_path = os.path.join(OUTPUT_DIR, "filter.srs")
 
 routing_domain = config.get("routing_domain", {})
 routing_ip = config.get("routing_ip", {})
+clash_rulesets = config.get("clash_rulesets", {})
 
 private_url = config.get("private_url",  "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/private.srs")
 private_srs_file_path = os.path.join(OUTPUT_DIR, "private.srs")
@@ -205,6 +206,49 @@ def count_rules_in_json(file_path):
     return total
 
 
+def process_clash_ruleset(name, url):
+    response = requests.get(url)
+    response.raise_for_status()
+
+    domains, domain_suffixes, ip_cidrs = [], [], []
+    for line in response.text.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split(",")
+        if len(parts) < 2:
+            continue
+        rule_type, value = parts[0].upper(), parts[1].strip()
+        if rule_type == "DOMAIN":
+            domains.append(value)
+        elif rule_type == "DOMAIN-SUFFIX":
+            domain_suffixes.append(value)
+        elif rule_type in ("IP-CIDR", "IP-CIDR6"):
+            ip_cidrs.append(value)
+
+    domain_rules = {}
+    if domains:
+        domain_rules["domain"] = sorted(set(domains))
+    if domain_suffixes:
+        domain_rules["domain_suffix"] = sorted(set(domain_suffixes))
+    if domain_rules:
+        domain_json = os.path.join(OUTPUT_DIR, f"{name}-domain.json")
+        domain_srs = os.path.join(OUTPUT_DIR, f"{name}-domain.srs")
+        with open(domain_json, "w", encoding="utf-8") as f:
+            json.dump({"version": 1, "rules": [domain_rules]}, f, ensure_ascii=False, indent=2)
+        compile_json_to_srs(domain_json, domain_srs)
+        print(f"{name}-domain.srs: {count_rules_in_json(domain_json)} 条规则")
+
+    if ip_cidrs:
+        ip_rules = {"ip_cidr": sorted(set(ip_cidrs))}
+        ip_json = os.path.join(OUTPUT_DIR, f"{name}-ip.json")
+        ip_srs = os.path.join(OUTPUT_DIR, f"{name}-ip.srs")
+        with open(ip_json, "w", encoding="utf-8") as f:
+            json.dump({"version": 1, "rules": [ip_rules]}, f, ensure_ascii=False, indent=2)
+        compile_json_to_srs(ip_json, ip_srs)
+        print(f"{name}-ip.srs: {count_rules_in_json(ip_json)} 条规则")
+
+
 def export_proxy_lists(ip_json_path, domain_json_path):
     with open(ip_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -262,6 +306,10 @@ if __name__ == "__main__":
         os.path.join(OUTPUT_DIR, domain_proxy_json),
     )
 
+    for name, url in clash_rulesets.items():
+        print(f"Processing clash ruleset: {name}")
+        process_clash_ruleset(name, url)
+
     keep_files = {
         "filter.srs",
         "merged-domain-direct.srs",
@@ -274,8 +322,9 @@ if __name__ == "__main__":
         "merged-ip-proxy.json",
         "proxy-ip-list.txt",
         "proxy-domain-list.txt",
-        "private.srs"
-    }
+        "private.srs",
+    } | {f"{name}-domain.srs" for name in clash_rulesets} \
+      | {f"{name}-ip.srs" for name in clash_rulesets}
     for file in os.listdir(OUTPUT_DIR):
         if file not in keep_files:
             os.remove(os.path.join(OUTPUT_DIR, file))

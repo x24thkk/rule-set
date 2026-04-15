@@ -912,6 +912,7 @@ adbkm.com
 adblockcdn.com
 adblockplus.org
 adblogger.vk.com
+adblogger.vk.ru
 adcommerce.tv
 addison-wesley.ch
 addthis.com
@@ -1169,6 +1170,8 @@ adultvideotop.com
 adultvirtualworlds.net
 adv.ozon.ru
 adv.rustore.ru
+adv.vk.com
+adv.vk.ru
 adv.yandex.com
 adv.yandex.ru
 advancediddetection.com
@@ -1184,6 +1187,7 @@ advertisercommunity.com
 advertiserscommunity.com
 advertising.adobe.com
 advertising.apple.com
+advk.vk.ru
 adwords-community.com
 adwords.com
 adwordsexpress.com
@@ -1910,6 +1914,8 @@ animestigma.com
 animezilla.com
 anistreaming.xyz
 ankarazirvesi2018.com
+ankiuser.net
+ankiweb.net
 anm.co.uk
 annamilk.com
 annstores.net
@@ -2382,6 +2388,7 @@ archiveofourown.com
 archiveofourown.net
 archiveofourown.org
 archivx.to
+archlinux.de
 archlinux.org
 archlinuxarm.org
 archlinuxcn.org
@@ -17006,7 +17013,6 @@ qzav.tv
 r-new-sale.blog.jp
 r-project.org
 r.mail.ru
-r.my.com
 r0.mail.ru
 r0.mradx.net
 r1.mail.ru
@@ -18717,6 +18723,7 @@ squirrelgroup.net
 squirrelvpn.com
 sqyzh-dh.sbs
 sr.ht
+srch-telemeter10.g.smailru.net
 srebrenica360.com
 srtcdn.net
 srttu.edu
@@ -19821,9 +19828,6 @@ tracker.gg
 tracker.my.com
 tracker.network
 tracking-location.com
-tracking.ocourier.ru
-tracking.ozon-dostavka.ru
-tracking.ozon.ru
 tradevip1.com
 tradingview.com
 trae-api-sg.mchost.guru

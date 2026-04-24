@@ -1226,6 +1226,7 @@ agefans.com
 agemys.org
 agency-adv.ozon.ru
 agendaweek.com
+agentclientprotocol.com
 agilebits.com
 agrd.eu
 agrd.io
@@ -1255,6 +1256,7 @@ ai7995.site
 ai91porn.cc
 aiaa.org
 aiasahi.jp
+aicode.googleapis.com
 aida.googleapis.com
 aimei133.com
 aimsciences.org
@@ -16192,6 +16194,7 @@ placemyad.com.au
 placesdocs.com
 planetminecraft.com
 planetsuzy.org
+plannotator.ai
 plansondemand.com
 plantsvszombies2.com
 plasticlabs.com
@@ -20090,6 +20093,7 @@ twister.net.co
 twistys.com
 twitch.tv
 twitchcdn.net
+twitchcon.com
 twitchsvc.net
 twitcomike.jp
 twitpic.com

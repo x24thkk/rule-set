@@ -1100,6 +1100,7 @@ adsdk.yandex.ru
 adsense.com
 adsensecustomsearchads.com
 adsenseformobileapps.com
+adsgram.ai
 adskcloud.com
 adskcloud.net
 adskeng.net
@@ -14810,6 +14811,8 @@ nhentaihaven.org
 nheos.com
 nhncorp.jp
 niceanimegames.com
+nicegram.app
+nicegram.cloud
 niceporn.tv
 nicesrv.de
 nicesshop.net

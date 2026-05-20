@@ -235,7 +235,6 @@
 .xn--cckwcxetd
 .xn--cg4bki
 .xn--flw351e
-.xn--flw351e.com
 .xn--jlq480n2rg
 .xn--qcka1pmc
 .yahoo
@@ -1496,6 +1495,7 @@ alchemysynth.com
 alefbank.com
 alexa.com
 alexanderstreet.com
+alfa.me
 alfabank.oavdo.amc
 alfabank.ru
 alfabank.st
@@ -14524,6 +14524,7 @@ mysinchew.com
 mysocialworklab.com
 mysql.com
 mystrikingly.com
+myteamspeak.com
 myteenwebcam.com
 mythicentertainment.com
 mythicentertainment.net
@@ -19517,6 +19518,8 @@ teacherfucksteens.com
 teachmyass.com
 teamneedforspeed.com
 teamskeet.com
+teamspeak-services.com
+teamspeak.com
 teamviewer.com
 teamviewer.us
 tearapeak.com
@@ -22227,6 +22230,7 @@ xn--d4ty0ojsqzfd.com
 xn--e1adjldbbpv.xn--90ais
 xn--e1aigb.xn--p1ai
 xn--fiqs8sxootzz.xn--hxt814e
+xn--flw351e.com
 xn--ggle-55da.com
 xn--gmq348bujlxrb.com
 xn--gmq92kd2rm1kx34a.com
@@ -23186,6 +23190,7 @@ zhaimankan.com
 zhainanjidi.xyz
 zhainanjidid.top
 zhangboz1.xyz
+zhangzhehan.net
 zhengjian.org
 zhengwunet.org
 zhenxiang.biz

@@ -8924,6 +8924,7 @@ gemfury.com
 gemini.com
 gemini.google
 gemini.google.com
+gemini.gstatic.com
 gemini.yahoo.com
 gen.lib.rus.ec
 gendai.net
@@ -20075,6 +20076,7 @@ toyobank.co.jp
 tpension.ru
 tpornstars.com
 tr.com
+trace-flow.ru
 tracing-http.megamarket.tech
 tracker-api.my.com
 tracker.gg

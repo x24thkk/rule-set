@@ -1077,12 +1077,14 @@ adporn.cc
 adpornu.xyz
 ads-api.duolingo.com
 ads-gate.wildberries.ru
+ads-img.mozilla.org
 ads-integration.rustore.ru
 ads-media.wildberries.ru
 ads-pixiv.net
 ads-twitter.com
 ads.dahlmessenger.com
 ads.icq.com
+ads.mozilla.org
 ads.rustore.ru
 ads.sber.ru
 ads.viqeo.tv
@@ -11101,6 +11103,8 @@ incestporn.xxx
 incestvidz.com
 incezt.net
 inclusivegrowthscore.com
+incoming-telemetry.thunderbird.net
+incoming.telemetry.mozilla.org
 incommon-rsa.org
 ind.sh
 indazn.com
@@ -12731,6 +12735,7 @@ livesketchshare.com
 livestream.com
 livexxx.me
 livingyourambition.com
+livinno.org
 livrariart.com.br
 lizardporn.com
 lizol.co.in
@@ -15661,6 +15666,7 @@ ooni.org
 ootbstudio.co.kr
 op.gg
 op7979.com
+opac-project.eu
 opal.google
 opal.google.com
 openai.com

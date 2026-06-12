@@ -1879,6 +1879,7 @@ analvids.com
 analytics-adv.ozon.ru
 analytics-alv.google.com
 analytics-stage.wildberries.ru
+analytics.cloud.unity3d.com
 analytics.facebook.com
 analytics.google.com
 analytics.mobile.yandex.net
@@ -2010,6 +2011,7 @@ api.dashlytrack.app
 api.mindbox.cloud
 api.mindbox.ru
 api.news
+api2.amplitude.com
 apibay.org
 apigee.com
 apina.biz
@@ -5002,6 +5004,7 @@ cdnvideo.ru
 cdnvideohub.com
 cdnxxx-proxy.co
 cdnxxx-proxy.xyz
+cdp.cloud.unity3d.com
 cebay.com
 ceicdata.com
 celebforum.co
@@ -5557,6 +5560,7 @@ comsoc.org
 conair.me
 conan.xxx
 conda.io
+config.uca.cloud.unity3d.com
 connaissancesfinancierespratiques.ca
 connect-in-canada.com
 connectcommerce.hk
@@ -5664,6 +5668,7 @@ cqcorea.com
 crabporn.com
 craigslist.org
 crankplayer.com
+crashlytics.com
 crates.io
 crazy-amateurs.com
 crazyav.xyz
@@ -15693,6 +15698,7 @@ oktech.ru
 okx-dns.com
 okx-dns1.com
 okx-dns2.com
+okx.ac
 okx.cab
 okx.com
 older-women-movies.com
@@ -16355,6 +16361,8 @@ pentium.net
 peopledreamfunding.com
 peoplenews.tw
 pepabo.com
+perf-events.cloud.unity3d.com
+perf.cloud.unity3d.com
 perfectgirls.net
 perfectgonzo.com
 perfectkickz.net
@@ -17073,6 +17081,7 @@ practivate.adobe.newoa
 practivate.adobe.ntp
 prastitutki.ru
 prcm.jp
+prd-lender.cdp.internal.unity3d.com
 pre-bmwgroup.jobs
 predb.me
 predictivetechnologies.com

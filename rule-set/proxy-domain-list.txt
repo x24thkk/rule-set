@@ -4526,6 +4526,7 @@ bronto.com
 brotli.org
 brourou.com
 browser-intake-datadoghq.com
+browser.events.data.msn.cn
 browser.events.data.msn.com
 browser.kagi.com
 browser.run
@@ -9372,8 +9373,11 @@ gofile.me
 gofucker.com
 gofuckmenow.com
 gofundme.com
+gog-cdn-lumen.secure2.footprint.net
+gog-services.com
 gog-statics.com
 gog.com
+gogalaxy.com
 gogettaxi.org
 gogle.com
 gogo-load.com
@@ -11321,6 +11325,7 @@ insiderdevtour.com
 insiderintelligence.com
 insidevoa.com
 insight.tech
+insights-collector.gog.com
 instaadder.com
 instabang.com
 instachecker.com

@@ -5634,6 +5634,7 @@ copilot-proxy.githubusercontent.com
 copilot-telemetry-service.githubusercontent.com
 copilot-telemetry.githubusercontent.com
 copilot-workspace.githubnext.com
+copilot.cloud.microsoft
 copilot.com
 copilot.microsoft.com
 copilotprodattachments.blob.core.windows.net

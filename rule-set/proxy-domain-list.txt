@@ -9141,6 +9141,7 @@ getpocket.com
 getporn.tv
 getprintersupports.com
 getscorecash.com
+getsentry.com
 getsexgames.com
 getsynapse.io
 gettr.com
@@ -18467,6 +18468,7 @@ sensualmothers.com
 sensueel.net
 sentry-cdn.com
 sentry-ng.g.smailru.net
+sentry.dev
 sentry.dev-my.com
 sentry.dev-my.games
 sentry.hetzner.company

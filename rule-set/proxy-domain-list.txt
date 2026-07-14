@@ -177,7 +177,6 @@
 .gmo
 .godaddy
 .gonglchuangl.net
-.goo
 .goog
 .google
 .google-analytics-cn.com
@@ -204,11 +203,9 @@
 .hsbc
 .ibm
 .imdb
-.intel
 .intuit
 .java
 .kindle
-.konami
 .microsoft
 .mini
 .mit
@@ -1503,7 +1500,6 @@ alefbank.com
 alexa.com
 alexanderstreet.com
 alfa.me
-alfabank.oavdo.amc
 alfabank.ru
 alfabank.st
 alfadirect.ru
@@ -5097,6 +5093,7 @@ chat.com
 chatango.com
 chatgpt.com
 chatgpt.livekit.cloud
+chatgpt.site
 chatgptvideo.xyz
 chatgptvideob.buzz
 chatsex.xxx
@@ -12486,6 +12483,7 @@ khanacademy.org
 khangar.net
 khotruyentranhx.com
 kichikuou.com
+kick.com
 kickporn.com
 kickshatchannel.com
 kicksnike1.com
@@ -17181,10 +17179,6 @@ ppy.sh
 practicalbusinessskills.com
 practicalmoneyskills.ca
 practicalmoneyskills.jp
-practivate.adobe
-practivate.adobe.ipp
-practivate.adobe.newoa
-practivate.adobe.ntp
 prastitutki.ru
 prcm.jp
 prd-lender.cdp.internal.unity3d.com

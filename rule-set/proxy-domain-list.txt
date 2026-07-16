@@ -2943,6 +2943,7 @@ azuredns-prd.info
 azuredns-prd.org
 azureedge-test.net
 azureedge.net
+azureedge.us
 azurefd.net
 azureiotcentral.com
 azureiotsolutions.com
@@ -5634,6 +5635,7 @@ coova.com
 coova.net
 coova.org
 copilot-proxy.githubusercontent.com
+copilot-stg.com
 copilot-telemetry-service.githubusercontent.com
 copilot-telemetry.githubusercontent.com
 copilot-workspace.githubnext.com
@@ -8385,6 +8387,7 @@ fljmh.com
 floorp.app
 floppy-tits.com
 flow.dev
+flow.google
 flow.org
 flowfront.com
 flowfront.net
@@ -13713,6 +13716,7 @@ mgo-images.com
 mgo.com
 mhcb.ru
 mhcbr.ru
+mhgui.com
 mhhanman.xyz
 mhqwe.xyz
 mhradio.org
@@ -19501,6 +19505,7 @@ starfieldtech.com
 starfox.com
 stargazer-games.com
 stark-verlag.ch
+starlink.com
 starott.com
 starp2p.com
 starplus.com
@@ -20052,7 +20057,6 @@ termux.org
 terraform.io
 terragraph.com
 terrapeak.com
-tesla-cdn.thron.com
 tesla.com
 tesla.services
 teslaenergy.services
